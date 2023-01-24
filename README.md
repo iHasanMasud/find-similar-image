@@ -16,13 +16,24 @@ In the end, the script will print "Similar image search finished" along with tot
 
 ### Installation and Usage
 
+Create a new directory and clone the repository into it using the following command:
+
+    git clone https://github.com/iHasanMasud/find-similar-image.git
+
+Create a new virtual environment and activate it using the following commands:
+
+    python -m venv venv
+    venv\Scripts\activate (Windows)
+    source venv/bin/activate (Linux)
+
+
 The script requires Python 3.6 or higher to run. It also requires the PIL and progressbar libraries to be installed. To install the libraries, run the following command:
 
     pip install -r requirements.txt
 
 To run the script, run the following command:
     
-    python find_similar_images.py
+    python FindSimilarImage.py
 
 ### License
 
